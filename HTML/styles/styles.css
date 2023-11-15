@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+}
+
+header > h1{
+    color: green;
+}
+
+
+header > p{
+    margin-left: 10px;
+}
+
+#segunda_cabecera{
+    height: 10vh;
+    width: 100vw;    
+    background-color: rgb(37, 223, 37);
+    color: white;
+    display: flex;
+}
+
+.cabecera{
+    width: 5vw;
+    height: 5vh;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 8px;
+    padding: 10px;
+
+    font-size: 1.25em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido{
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+
+    font-size: 2em;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
