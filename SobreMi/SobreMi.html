@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarea 2 - Git y GitHub"/>
+    <meta name="author" content="Daniel Porras Sepúlveda"/>
+    <title>Mi página</title>
+    <link rel="stylesheet" href="./styles/styles_mipagina.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <section>
+        <nav id="navegador">
+            <div class="contenedornav" href="#uno">
+                <a href="#cabecera">Presentación</a>
+            </div>
+            <div class="contenedornav">
+                <a href="#dos">Formulario</a>
+            </div>
+            <div class="contenedornav">
+                <a href="#tres">Aficiones</a>
+            </div>
+        </nav> 
+        <header id="cabecera">
+            <div id="contenidocabecera">
+                <h1>Daniel Porras Sepúlveda</h1>
+            </div>
+        </header>
+        <article id="uno">
+            <div id="imagen">
+                <img id="programador" src="./IMG/programando.jpg" width="450px" height="250px">
+            </div >    
+            <div id="contenido">
+                <p>Esta es mi página web, en la que voy a deciros algunas de mis aficiones y vais a tener que rellenar un pequeño formulario que os he dejado preparado.</p>
+                <br>
+                <p>Actualmente, estoy cursando en el instituto Pablo Picasso el primer año del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Multiplataformas. </p>
+                <br>
+                <p>Me gustaría dedicarme a ser programador, pero para conseguirlo todavái me queda mucho por aprender.  </p>
+            </div>    
+        </article>
+        <article id="dos">
+                <div id="cabezaformulario">
+                    <h1>Por favor, rellene el siguiente formulario: </h1>
+                </div>
+                <div id="contenedorformulario">
+                <div id="formulario">
+            
+                <form action="./index.html" method="post">
+                    
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Name" required="" pattern="[A-Za-zÁáÉéÍíÓóÚú]+" >
+                        <label for="name" class="form__label">Nombre</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="text" class="form__field" placeholder="Name" required="" pattern="[A-Za-zÁáÉéÍíÓóÚú]+" >
+                        <label for="name" class="form__label">Apellidos</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="text" class="form__field" placeholder="Name" max="9" required="" pattern="[0-9]{8}[A-Z]" >
+                        <label for="name" class="form__label">DNI</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="text" class="form__field" placeholder="Name" required="" pattern="[A-Za-zÁáÉéÍíÓóÚú]+" >
+                        <label for="name" class="form__label">Localidad</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="text" class="form__field" placeholder="Name" required="" pattern="^[a-zA-Z0-9,ªº ]+$" >
+                        <label for="name" class="form__label">Domicilio</label> <br><br>
+                    </div> 
+                    <input type="submit" value="Enviar">
+                </form>
+              </div>
+            </div>
+        </article>
+        <article id="tres">
+            <div id="cabecera_aficiones">
+                <h1>Mis Aficiones</h1>
+            </div>
+                <div id="contenido_aficiones">
+                    <div id="texto">
+                        <p>Una de mis aficciones es el LOL, un juego del estilo moba. El 19/11/2023 se juega la final del mundo, en la que se decidiran los finalistas el 11 y 12 de noviembre,
+                             ya que es el día de las semifinales, en las que de 4 equipos vivos, 3 son chinos y 1 coreano. Los 4 equipos que están en semifinales son: </p>
+                    </div>
+                        
+                         <div id="primer_equipo" class="equipos_lol">
+                             <img src="./IMG/Logo_Weibo.png" >  
+                        </div>
+                         <div class="equipos_lol"> 
+                            <img src="./IMG/Logo_Bilibili.png">
+                         </div>
+                         <div class="equipos_lol">
+                            <img src="./IMG/Logo_T1.png">
+                         </div>
+                         <div class="equipos_lol">
+                            <img src="./IMG/Jogo_JDG.png">
+                         </div>
+                         <div id="texto2">
+                            <p>Los partidos de semifinales son: Weibo vs Bilibili por un lado, y T1 vs JDG por otro.</p> <br>
+                            <p>Los partidos se jugarán al mejor de 5, por lo que el equipo que consiga 3 victorias pasará a la final</p> <br>
+                            <p>El equipo favortio para ganar es T1, ya que uno de sus jugadores, Faker, es el más icónico.</p> <br>
+                            <p>Faker es el único jugador en la historia del LOL en ganar 3 mundiales.</p>
+                        </div>
+                </div>
+           </div>
+        </article>
+    </section>
+ 
+    
+</body>
+</html>
