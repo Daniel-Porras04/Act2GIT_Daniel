@@ -1,0 +1,73 @@
+html{
+    background-color: rgb(84, 211, 135);
+}
+table{
+    border:2px black solid;
+    border-collapse: collapse;  
+    text-align: center;
+    margin: auto;
+    background-color: rgb(200, 154, 244);    
+}
+
+#titulo{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Pacifico';
+    display: block;
+    border: 2px black solid;
+    border-radius: 30px;
+    background-color: rgb(158, 246, 235);
+    
+    width: 65vh;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 34%;
+}
+
+td, th{
+    width: 9vw;
+    height: 9vh;
+    border: 2px black solid;
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+#semana{
+    background-color: rgb(166, 18, 196);
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+}
+
+#hora{
+    background-color: rgb(196, 93, 182);
+    font-family: 'Pacifico';
+    font-size: 1.25em;
+}
+
+#recreo{
+    background-color: rgb(238, 3, 109);
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+
+#Entorno{
+    background-color: rgb(64, 194, 237);
+}
+
+#Programacion{
+    background-color: rgb(96, 117, 240);
+}
+
+#fol{
+    background-color: rgb(47, 225, 23);
+}
+
+#BasedeDatos {
+    background-color: rgb(235, 152, 9);
+}
+#LenguajedeMarcas {
+    background-color: rgb(236, 221, 58);
+}
+#SistemasInformaticos {
+    background-color: rgb(218, 53, 41);
+}
